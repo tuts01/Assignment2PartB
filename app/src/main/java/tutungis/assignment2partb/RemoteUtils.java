@@ -60,7 +60,7 @@ public class RemoteUtils {
         return false;
     }
     
-    public static String getJSONString(HttpURLConnection connection,
+    public static String getResponseString(HttpURLConnection connection,
                                        Activity uiActivity)
     {
         try
